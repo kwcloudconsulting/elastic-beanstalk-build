@@ -177,7 +177,7 @@ Add this underneath where you have been logging all your resources so far
                            const elbEnv = new elasticbeanstalk.CfnEnvironment(this, 'Environment', {
                            environmentName: 'MyWebAppEnvironment',
                            applicationName: app.applicationName || appName,
-                           solutionStackName: '64bit Amazon Linux 2 v5.4.4 running Node.js 14',
+                           solutionStackName: '64bit Amazon Linux 2 v5.5.6 running Node.js 14',
                            optionSettings: optionSettingProperties,
                            versionLabel: appVersionProps.ref,
                            });
