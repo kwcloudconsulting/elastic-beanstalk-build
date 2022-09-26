@@ -5,13 +5,16 @@ Prereqs: Bootstrap your AWS account
          
 Part 1
 
-Bash Script to create directory :
+Bash Script to create directory
       mkdir my_webapp
       cd my_webapp
+
 Next we are going to initialize the nodejs project
       npm init -y
+
 Now run Bash script to install Express as a dependency for Nodejs
       npm install express
+
 Create a new file called <app.js> and add this code to it
       var express = require('express');
       var app = express();
