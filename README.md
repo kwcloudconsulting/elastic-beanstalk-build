@@ -60,6 +60,6 @@ In the package.json file replace the scripts section with this
     
     "scripts": {
     "start": "node app.js"
-  },
+    },
   
 This will start a local server with the URL http://127.0.0.1:8080 or http://localhost:8080.  
